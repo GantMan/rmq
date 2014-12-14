@@ -284,8 +284,8 @@ module RubyMotionQuery
       RMQ.image
     end
 
-    def color
-      RMQ.color
+    def color(*params)
+      RMQ.color(*params)
     end
 
     def font
